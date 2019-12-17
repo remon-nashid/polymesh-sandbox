@@ -828,7 +828,7 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@babel/runtime@^7.5.1", "@babel/runtime@^7.6.0", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2":
+"@babel/runtime@^7.5.1", "@babel/runtime@^7.6.0", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.5":
   version "7.7.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.6.tgz#d18c511121aff1b4f2cd1d452f1bac9601dd830f"
   integrity sha512-BWAJxpNVa0QlE5gZdWjSxXtemZyZ9RmrmVozxt3NUXeZhVIJ5ANyqmMc0JDrivBZyxUuQvFxlvH4OWWOogGfUw==
@@ -1101,6 +1101,21 @@
     "@polkadot/rpc-provider" "^0.98.1"
     "@polkadot/types" "^0.98.1"
     "@polkadot/util-crypto" "^1.7.1"
+
+"@polkadot/extension-dapp@^0.14.1":
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/extension-dapp/-/extension-dapp-0.14.1.tgz#8bcc355cba0061cd4744b769c01261e480252d89"
+  integrity sha512-DSBtd5+EyEniAhYLHlHLEnAvrsyZ/W8LXQjXywWt8f5lr1diW689rMT+k5mKOMQVtJQJ+x8PGBSLlVSsVKKb0A==
+  dependencies:
+    "@babel/runtime" "^7.7.5"
+    "@polkadot/extension-inject" "^0.14.1"
+
+"@polkadot/extension-inject@^0.14.1":
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/extension-inject/-/extension-inject-0.14.1.tgz#a06d40d0ad1799958b8e0ab68ecc5436d34237ea"
+  integrity sha512-O22ZEhEB7Og/B08qhI1gtgVHnMPUZL4uAcG/J40ydNjv7y9vzZJpWeroH8ArkTLSiECo6s5/0BUntHwfokpmlw==
+  dependencies:
+    "@babel/runtime" "^7.7.5"
 
 "@polkadot/jsonrpc@^0.98.1":
   version "0.98.1"

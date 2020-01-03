@@ -58,7 +58,7 @@ function App() {
       if (window.injectedWeb3 && window.injectedWeb3['polkadot-js']) {
         const allInjected = await web3Enable('my cool dapp')
         const allAccounts = await web3Accounts();
-        const address = allAccounts[1]['address']
+        const address = allAccounts[0]['address']
         const injector = await web3FromAddress(address)
         console.log(allInjected, address, injector)
         setAddress(address)
